@@ -92,6 +92,6 @@ if __name__ == '__main__':
     #
     #
     if all([x == y for x, y in zip(raw, decoded)]):
-        print("all good")
+        print("all good!")
     else:
-        print(sdf)
+        print("damn..")
